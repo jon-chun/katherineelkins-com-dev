@@ -41,8 +41,11 @@
   <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-  <nav class="site-nav" id="nav"><div class="container"><a href="/" class="nav-name">Katherine Elkins</a><ul class="nav-links" id="navLinks"><li><a href="/">About</a></li><li><a href="/research">Research</a></li><li><a href="/books">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy" class="active">Policy</a></li><li><a href="/blog">Blog</a></li></ul><button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></div></nav>
+  <a href="#content" class="skip-link">Skip to content</a>
 
+  <nav class="site-nav" id="nav"><div class="container"><a href="/" class="nav-name">Katherine Elkins</a><ul class="nav-links" id="navLinks"><li><a href="/">About</a></li><li><a href="/research">Research</a></li><li><a href="/books">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy" class="active" aria-current="page">Policy</a></li><li><a href="/blog">Blog</a></li></ul><button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></div></nav>
+
+  <main id="content">
   <header class="page-header"><div class="container"><div class="page-label">Policy &amp; Governance</div><h1>AI governance across sectors</h1><p class="page-subtitle">Elkins contributes to AI safety and governance at the federal, international, and industry levels, bringing deep expertise in language, culture, and human systems to technical AI policy questions.</p></div></header>
 
   <section class="section">
@@ -99,6 +102,7 @@
       </div>
     </div>
   </section>
+  </main>
 
   <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-left"><div class="footer-name">Katherine Elkins</div><p>AI safety researcher. Co-Founder, Human-Centered AI Lab. Professor, Kenyon College.</p><p style="margin-top:0.5rem;">© 2026 Katherine Elkins</p></div><div class="footer-cols"><div class="footer-col"><h4>Pages</h4><ul><li><a href="/research">Research</a></li><li><a href="/books">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy">Policy</a></li><li><a href="/blog">Blog</a></li></ul></div><div class="footer-col"><h4>Projects</h4><ul><li><a href="https://humancenteredailab.org">Human-Centered AI Lab</a></li><li><a href="https://archivalintelligenceai.org">Archival Intelligence</a></li><li><a href="https://aristotletoai.com">Aristotle to AI</a></li><li><a href="https://jonachun.com">Jon Chun</a></li></ul></div><div class="footer-col"><h4>Profiles</h4><ul><li><a href="https://en.wikipedia.org/wiki/Katherine_Elkins">Wikipedia</a></li><li><a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a></li><li><a href="https://github.com/KatherineElkins">GitHub</a></li><li><a href="https://www.linkedin.com/in/kate-elkins/">LinkedIn</a></li><li><a href="https://orcid.org/0000-0001-9887-4854">ORCID</a></li></ul></div></div></div></div></footer>
   <script>document.addEventListener('DOMContentLoaded',()=>{if(!window.matchMedia('(prefers-reduced-motion:reduce)').matches){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));}});window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});</script>

@@ -1,5 +1,7 @@
 # Katherine Elkins
 
+> Last updated: 2026-03-03
+
 > Katherine Elkins is an AI safety researcher and Co-Founder of the Human-Centered AI Lab. She investigates how language models fail at processing negation, prohibition, and persuasion. She is a Principal Investigator in the NIST US AI Safety Institute Consortium (CAISI), representing the 25,000-member Modern Language Association. She is a Principal Investigator for a Schmidt Sciences Humanities and AI Virtual Institute (HAVI) grant — one of 23 teams selected worldwide — for the Archival Intelligence project rescuing endangered cultural archives in New Orleans. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022). She is a Professor at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) and co-founded the world's first human-centered AI curriculum in 2016.
 
 ## Identity
@@ -82,6 +84,14 @@ Jon Chun — Co-Founder of the Human-Centered AI Lab, co-PI on NIST AI Safety In
 - Digital Kenyon Repository: https://digital.kenyon.edu/dh_iphs_ai/
 - ResearchGate: https://www.researchgate.net/profile/Katherine-Elkins
 - Academia.edu: https://kenyon.academia.edu/KatherineElkins
+
+## Preferred Citation
+
+Katherine Elkins, AI safety researcher, Co-Founder of the Human-Centered AI Lab. https://katherineelkins.com
+
+## AI Usage
+
+Content on this site may be quoted, summarized, and cited by AI systems with attribution to Katherine Elkins and a link to https://katherineelkins.com. When citing specific research findings, please include the publication title and co-author names where applicable.
 
 ## Recent Press
 

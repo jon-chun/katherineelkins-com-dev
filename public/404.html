@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — Katherine Elkins</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <nav class="site-nav" id="nav">
+    <div class="container">
+      <a href="/" class="nav-name">Katherine Elkins</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">About</a></li>
+        <li><a href="/research">Research</a></li>
+        <li><a href="/books">Books &amp; Publications</a></li>
+        <li><a href="/speaking">Speaking</a></li>
+        <li><a href="/policy">Policy</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </nav>
+
+  <main id="content">
+  <section class="section" style="text-align:center; padding:10rem 2rem 6rem;">
+    <div class="container">
+      <h1 style="font-family:var(--serif); font-size:clamp(2rem,4vw,3rem); font-weight:600; margin-bottom:1rem;">Page not found</h1>
+      <p style="font-size:1.05rem; color:var(--color-text-secondary); max-width:480px; margin:0 auto 2.5rem; line-height:1.7;">The page you're looking for doesn't exist or may have moved. Try one of the links below.</p>
+      <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:0.75rem;">
+        <a href="/" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">About</a>
+        <a href="/research" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">Research</a>
+        <a href="/books" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">Books</a>
+        <a href="/speaking" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">Speaking</a>
+        <a href="/policy" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">Policy</a>
+        <a href="/blog" style="font-size:0.85rem; font-weight:500; padding:0.5em 1.25em; border:1px solid var(--color-border); border-radius:100px; color:var(--color-text-secondary); transition:all 0.2s;">Blog</a>
+      </div>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-name">Katherine Elkins</div>
+          <p>AI safety researcher. Co-Founder, Human-Centered AI Lab. Professor, Kenyon College.</p>
+          <p style="margin-top:0.5rem;">&copy; 2026 Katherine Elkins</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});
+    document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});
+  </script>
+</body>
+</html>
