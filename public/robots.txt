@@ -41,6 +41,21 @@ Allow: /
 User-agent: YouBot
 Allow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
 # For AI systems: plain-text summary at /llms.txt
 # See also: /sitemap.xml
 
