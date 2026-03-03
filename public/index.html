@@ -182,7 +182,7 @@
       gap: 4rem; align-items: start;
     }
     .hero-photo {
-      width: 300px; border-radius: 6px;
+      width: 300px; height: auto; border-radius: 6px;
       box-shadow: 0 8px 40px rgba(0,0,0,0.08);
     }
     .hero-badge {
@@ -239,10 +239,30 @@
       margin-bottom: 0.5rem;
     }
 
+    .impact-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .impact-card {
+      padding: 1.5rem; border-radius: 8px;
+      background: var(--color-warm); text-align: center;
+    }
+    .impact-number {
+      font-family: var(--serif); font-size: 2rem; font-weight: 700;
+      color: var(--color-accent); line-height: 1.1; margin-bottom: 0.4rem;
+    }
+    .impact-label {
+      font-size: 0.78rem; color: var(--color-text-secondary); line-height: 1.5;
+    }
+
     @media (max-width: 900px) {
       .hero-layout { grid-template-columns: 1fr; gap: 2rem; }
       .hero-photo { width: 220px; order: -1; }
       .highlights-grid { grid-template-columns: 1fr; }
+      .impact-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 480px) {
+      .impact-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -303,6 +323,30 @@
       </div>
     </div>
   </header>
+
+  <!-- Impact Stats -->
+  <section class="section">
+    <div class="container">
+      <div class="impact-grid">
+        <div class="impact-card reveal">
+          <div class="impact-number">95,336</div>
+          <div class="impact-label">Downloads of mentored student research from 4,760 institutions in 198 countries</div>
+        </div>
+        <div class="impact-card reveal">
+          <div class="impact-number">2016</div>
+          <div class="impact-label">Co-created the world's first human-centered AI curriculum</div>
+        </div>
+        <div class="impact-card reveal">
+          <div class="impact-number">17+</div>
+          <div class="impact-label">Peer-reviewed publications across AI, humanities, and governance</div>
+        </div>
+        <div class="impact-card reveal">
+          <div class="impact-number">61%</div>
+          <div class="impact-label">Women enrolled in AI courses · 13% Black · 11% Latinx</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Recent Highlights -->
   <section class="section">

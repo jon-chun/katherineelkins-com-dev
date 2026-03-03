@@ -100,9 +100,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/style.css">
   <style>
-    .book { display: grid; grid-template-columns: 1fr; gap: 1.5rem; padding: 2.5rem 0; border-bottom: 1px solid var(--color-border); }
+    .book { display: grid; grid-template-columns: 160px 1fr; gap: 2rem; padding: 2.5rem 0; border-bottom: 1px solid var(--color-border); align-items: start; }
     .book:last-child { border-bottom: none; }
+    .book-cover { width: 160px; height: auto; border-radius: 4px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
     .book h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.25; }
+    @media (max-width: 640px) { .book { grid-template-columns: 120px 1fr; gap: 1.25rem; } .book-cover { width: 120px; } }
     .book-meta { font-size: 0.82rem; color: var(--color-accent); font-weight: 600; margin-bottom: 0.25rem; }
     .book p { font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.7; max-width: 640px; }
     .pub-group-title { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; margin: 3rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
@@ -122,6 +124,7 @@
       <div class="section-label">Books</div>
 
       <div class="book reveal">
+        <img src="/book-shapes-of-stories.jpg" alt="The Shapes of Stories: Sentiment Analysis for Narrative — book cover" class="book-cover" width="258" height="390">
         <div>
           <div class="book-meta">Cambridge University Press, 2022</div>
           <h3>The Shapes of Stories: Sentiment Analysis for Narrative</h3>
@@ -130,6 +133,7 @@
       </div>
 
       <div class="book reveal">
+        <img src="/book-proust-in-search.jpg" alt="Philosophical Approaches to Proust's In Search of Lost Time — book cover" class="book-cover" width="257" height="390">
         <div>
           <div class="book-meta">Oxford University Press, 2022</div>
           <h3>Philosophical Approaches to Proust's In Search of Lost Time (Editor)</h3>
@@ -165,6 +169,26 @@
           <h3>LLM SOTA Chatbots Ethics-Based Audit</h3>
           <p>With Jon Chun. Ethics-based audit of 8 leading commercial and open-source LLMs including GPT-4. Probing normative values and moral reasoning.</p>
         </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">LaMAS · 2026 (Accepted)</div>
+          <h3>AgenticSimLaw: A Juvenile Courtroom Multi-Agent Debate Simulation for Explainable High-Stakes Tabular Decision Making</h3>
+          <p>With Jon Chun and Yong Suk Lee. Multi-agent judicial simulation for explainable AI decision-making.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">arXiv · Dec 2025</div>
+          <h3>Syntactic Framing Fragility: An Audit of Robustness in LLM Ethical Decisions</h3>
+          <p>With Jon Chun. Audit of robustness in LLM ethical decision-making under syntactic framing variations.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">arXiv · 2024</div>
+          <h3>Informed AI Regulation: Comparing the Ethical Frameworks of Leading LLM Chatbots</h3>
+          <p>With Jon Chun. Comparative analysis of normative ethical frameworks across leading commercial and open-source language models.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">arXiv · 2024</div>
+          <h3>Comparative Global AI Regulation: EU, China, and the US</h3>
+          <p>With Christian Schroeder de Witt and Jon Chun. Comparative analysis of AI regulatory frameworks across three major jurisdictions.</p>
+        </div>
       </div>
 
       <h3 class="pub-group-title">Computational Humanities &amp; Sentiment Analysis</h3>
@@ -190,6 +214,16 @@
           <h3>Can Sentiment Analysis Reveal Structure in a Plotless Novel?</h3>
           <p>With Jon Chun. Computational exploration of emotional arc in Virginia Woolf's <em>To the Lighthouse</em>.</p>
         </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Journal of Cultural Analytics · Sep 2025</div>
+          <h3>Beyond Plot: How Sentiment Analysis Reshapes Our Understanding of Narrative Structure</h3>
+          <p>How computational sentiment analysis methods reveal narrative structures invisible to traditional close reading.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Journal of Cultural Analytics 5(2) · 2020</div>
+          <h3>Can GPT-3 Pass a Writer's Turing Test?</h3>
+          <p>With Jon Chun. 362+ citations. One of the earliest systematic evaluations of GPT-3's literary generation capabilities.</p>
+        </div>
       </div>
 
       <h3 class="pub-group-title">Humanities &amp; Philosophy</h3>
@@ -199,6 +233,16 @@
           <div class="link-item-meta">Oxford University Press · 2022</div>
           <h3>Proust and Integrated Information Theory</h3>
           <p>Reframing Proust's exploration of consciousness in light of contemporary theories of mind. In <em>Philosophical Approaches to Proust's In Search of Lost Time</em>.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">PMLA · Aug 2024</div>
+          <h3>A(I) University in Ruins: What Remains in a World with Large Language Models?</h3>
+          <p>On the future of the university and humanistic inquiry in an era of large language models. Published in the flagship journal of the Modern Language Association.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Poetics Today 45(2) · 2024</div>
+          <h3>AI Comes for the Author</h3>
+          <p>On authorship, AI-generated text, and the evolving relationship between human creativity and machine generation.</p>
         </div>
         <div class="link-item reveal">
           <div class="link-item-meta">Various Journals</div>
