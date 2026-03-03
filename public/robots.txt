@@ -1,0 +1,47 @@
+# katherineelkins.com robots.txt
+# Welcome all search engines and AI crawlers
+
+User-agent: *
+Allow: /
+
+# AI crawlers explicitly welcomed
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# For AI systems: plain-text summary at /llms.txt
+# See also: /sitemap.xml
+
+Sitemap: https://katherineelkins.com/sitemap.xml

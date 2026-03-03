@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research — Katherine Elkins</title>
+  <meta name="description" content="Katherine Elkins' research spans AI safety and LLM evaluation, computational social science, computational humanities, sentiment analysis, archival intelligence, and AI governance. PI in NIST AI Safety Institute Consortium. Creator of SentimentArcs methodology.">
+  <meta property="og:title" content="Research — Katherine Elkins">
+  <meta property="og:description" content="AI safety, computational humanities, sentiment analysis, archival intelligence, and AI governance research by Katherine Elkins.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://katherineelkins.com/research">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://katherineelkins.com/research">
+
+  <!-- Research page: structured data for AI extraction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Research — Katherine Elkins",
+    "url": "https://katherineelkins.com/research",
+    "description": "Katherine Elkins' research spans AI safety and LLM evaluation, computational social science, computational humanities and sentiment analysis, archival intelligence, AI governance and comparative regulation, translation and affective AI, and human-centered AI education.",
+    "author": {
+      "@type": "Person",
+      "name": "Katherine Elkins",
+      "url": "https://katherineelkins.com",
+      "sameAs": ["https://en.wikipedia.org/wiki/Katherine_Elkins", "https://www.wikidata.org/wiki/Q130369935"]
+    },
+    "about": [
+      "AI safety", "LLM evaluation", "red-teaming", "negation sensitivity",
+      "computational social science", "multi-agent behavioral simulation",
+      "sentiment analysis", "SentimentArcs", "computational humanities",
+      "archival intelligence", "cultural heritage preservation",
+      "AI governance", "comparative AI regulation",
+      "affective AI", "translation studies",
+      "human-centered AI education"
+    ],
+    "mainEntity": [
+      {
+        "@type": "ResearchProject",
+        "name": "LLM Evaluation and Red-Teaming",
+        "description": "Katherine Elkins investigates fundamental vulnerabilities in how large language models process negation, prohibition, and persuasion. Her research with Jon Chun audited 16 models across 14 ethical scenarios and found that open-source models endorse prohibited actions 77% of the time when negation framing is applied. This work is conducted as part of the NIST US AI Safety Institute Consortium (CAISI).",
+        "funder": { "@type": "Organization", "name": "NIST US AI Safety Institute" }
+      },
+      {
+        "@type": "ResearchProject",
+        "name": "Archival Intelligence",
+        "description": "A Schmidt Sciences HAVI-funded project ($330K, one of 23 teams worldwide) using AI to rescue endangered cultural heritage archives in New Orleans. Community-governed data sovereignty for historically marginalized populations.",
+        "funder": { "@type": "Organization", "name": "Schmidt Sciences" },
+        "url": "https://archivalintelligenceai.org"
+      },
+      {
+        "@type": "ResearchProject",
+        "name": "Multi-Agent Behavioral Simulation",
+        "description": "Multi-agent behavioral simulation of high-stakes decisions benchmarking over 90 model/reasoning combinations for judicial recidivism prediction. Funded through the Notre Dame-IBM Technology Ethics Lab.",
+        "funder": { "@type": "Organization", "name": "Notre Dame-IBM Technology Ethics Lab" }
+      },
+      {
+        "@type": "ResearchProject",
+        "name": "SentimentArcs",
+        "description": "SentimentArcs is the first computational methodology for analyzing emotional arc across full-length literary narratives. Created by Katherine Elkins and Jon Chun, published in The Shapes of Stories (Cambridge University Press, 2022). Student and faculty research applying the methodology has been downloaded over 95,000 times from 4,000+ institutions in 198 countries via Digital Kenyon."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+/* katherineelkins.com — Shared Styles */
+/* Design: Editorial literary minimalism. Warm, authoritative, distinctive. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --color-bg: #FAF9F6;
+  --color-surface: #FFFFFF;
+  --color-text: #1C1C1C;
+  --color-text-secondary: #555555;
+  --color-text-tertiary: #8A8A8A;
+  --color-accent: #7B2D3B;
+  --color-accent-hover: #5E2130;
+  --color-accent-light: rgba(123,45,59,0.07);
+  --color-border: #E8E4DF;
+  --color-border-light: #F0ECE7;
+  --color-warm: #F5F2ED;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --sans: 'Libre Franklin', -apple-system, sans-serif;
+  --max-width: 1080px;
+  --narrow: 720px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--color-accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--color-accent-hover); }
+em { font-style: italic; }
+strong { font-weight: 600; }
+
+/* ── LAYOUT ── */
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; }
+.narrow { max-width: var(--narrow); margin: 0 auto; padding: 0 2rem; }
+.section { padding: 5rem 0; }
+.section--warm { background: var(--color-warm); }
+
+/* ── NAV ── */
+.site-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(250,249,246,0.92); backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--color-border-light);
+  transition: box-shadow 0.3s;
+}
+.site-nav.scrolled { box-shadow: 0 1px 16px rgba(0,0,0,0.05); }
+.site-nav .container {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+}
+.nav-name {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  color: var(--color-text); text-decoration: none; letter-spacing: -0.01em;
+}
+.nav-links { display: flex; gap: 1.75rem; list-style: none; }
+.nav-links a {
+  font-size: 0.82rem; font-weight: 500; color: var(--color-text-secondary);
+  text-decoration: none; letter-spacing: 0.02em; transition: color 0.2s;
+  position: relative;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--color-accent); }
+.nav-links a.active::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 1.5px; background: var(--color-accent);
+}
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+.hamburger svg { width: 22px; height: 22px; stroke: var(--color-text); }
+
+/* ── PAGE HEADER ── */
+.page-header {
+  padding: 8rem 0 3rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.page-header .page-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.75rem;
+}
+.page-header h1 {
+  font-family: var(--serif); font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600; line-height: 1.15; letter-spacing: -0.02em;
+}
+.page-header .page-subtitle {
+  font-size: 1.05rem; color: var(--color-text-secondary);
+  line-height: 1.7; max-width: 640px; margin-top: 1rem;
+}
+
+/* ── PROSE ── */
+.prose { max-width: var(--narrow); }
+.prose p { margin-bottom: 1.25rem; line-height: 1.75; color: var(--color-text-secondary); }
+.prose p:last-child { margin-bottom: 0; }
+.prose h2 {
+  font-family: var(--serif); font-size: 1.6rem; font-weight: 600;
+  color: var(--color-text); margin: 3rem 0 1rem; line-height: 1.25;
+}
+.prose h3 {
+  font-family: var(--serif); font-size: 1.25rem; font-weight: 600;
+  color: var(--color-text); margin: 2.5rem 0 0.75rem; line-height: 1.3;
+}
+.prose ul, .prose ol { margin: 0 0 1.25rem 1.5rem; color: var(--color-text-secondary); }
+.prose li { margin-bottom: 0.4rem; line-height: 1.65; }
+.prose a { border-bottom: 1px solid rgba(123,45,59,0.3); }
+.prose a:hover { border-color: var(--color-accent); }
+
+/* ── SECTION HEADERS ── */
+.section-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.75rem;
+}
+.section-title {
+  font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; margin-bottom: 1rem;
+}
+.section-intro {
+  font-size: 1rem; color: var(--color-text-secondary);
+  max-width: 600px; line-height: 1.7; margin-bottom: 3rem;
+}
+
+/* ── CARDS ── */
+.card-grid { display: grid; gap: 1.5rem; }
+.card-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.card-grid--3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px; padding: 2rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 24px rgba(123,45,59,0.05);
+}
+.card-tag {
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.6rem;
+}
+.card h3 {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  line-height: 1.3; margin-bottom: 0.75rem;
+}
+.card p {
+  font-size: 0.88rem; color: var(--color-text-secondary); line-height: 1.65;
+}
+
+/* ── LINK LIST (for publications, talks) ── */
+.link-list { border-top: 1px solid var(--color-border); }
+.link-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+.link-item-meta {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--color-text-tertiary); margin-bottom: 0.35rem;
+}
+.link-item h3 {
+  font-family: var(--serif); font-size: 1.05rem; font-weight: 600;
+  line-height: 1.35; margin-bottom: 0.3rem;
+}
+.link-item h3 a { color: var(--color-text); border-bottom: 1px solid transparent; }
+.link-item h3 a:hover { color: var(--color-accent); border-color: var(--color-accent); }
+.link-item p {
+  font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.6;
+}
+
+/* ── FOOTER ── */
+.site-footer {
+  padding: 3.5rem 0; border-top: 1px solid var(--color-border);
+  font-size: 0.8rem; color: var(--color-text-tertiary);
+}
+.footer-grid {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 2rem;
+}
+.footer-left { max-width: 320px; }
+.footer-left .footer-name {
+  font-family: var(--serif); font-size: 1rem; font-weight: 600;
+  color: var(--color-text); margin-bottom: 0.5rem;
+}
+.footer-left p { line-height: 1.55; }
+.footer-cols { display: flex; gap: 3rem; }
+.footer-col h4 {
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--color-text-secondary);
+  margin-bottom: 0.7rem;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 0.35rem; }
+.footer-col a { color: var(--color-text-tertiary); transition: color 0.2s; }
+.footer-col a:hover { color: var(--color-accent); }
+
+/* ── REVEAL (crawler-safe) ── */
+.reveal { opacity: 1; transform: none; }
+.reveal.will-animate {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.reveal.will-animate.visible { opacity: 1; transform: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .card-grid--2, .card-grid--3 { grid-template-columns: 1fr; }
+  .footer-grid { flex-direction: column; }
+}
+@media (max-width: 640px) {
+  .nav-links { display: none; }
+  .nav-links.open {
+    display: flex; flex-direction: column;
+    position: absolute; top: 60px; left: 0; right: 0;
+    background: var(--color-bg); border-bottom: 1px solid var(--color-border);
+    padding: 1.25rem 2rem; gap: 1rem;
+  }
+  .hamburger { display: block; }
+  .page-header { padding: 7rem 0 2.5rem; }
+  .section { padding: 3.5rem 0; }
+  .footer-cols { flex-direction: column; gap: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal.will-animate { opacity: 1; transform: none; transition: none; }
+}
+
+</style>
+</head>
+<body>
+
+  <nav class="site-nav" id="nav">
+    <div class="container">
+      <a href="/" class="nav-name">Katherine Elkins</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">About</a></li>
+        <li><a href="/research" class="active">Research</a></li>
+        <li><a href="/books">Books &amp; Publications</a></li>
+        <li><a href="/speaking">Speaking</a></li>
+        <li><a href="/policy">Policy</a></li>
+        <li><a href="/blog">Blog</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <div class="page-label">Research</div>
+      <h1>Where AI meets human systems</h1>
+      <p class="page-subtitle">Katherine Elkins' research bridges computational methods with humanistic and social-scientific inquiry, investigating how information flows shape human behavior, social outcomes, and institutional decision-making across political, cultural, and technological systems.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>AI Safety &amp; LLM Evaluation</h2>
+        <p>Elkins investigates fundamental vulnerabilities in how large language models process language — particularly negation, prohibition, and persuasion. Her research with Jon Chun has revealed that many open-source models endorse prohibited actions 77% of the time when instructions contain syntactic negation, a finding with significant implications for AI safety in high-stakes deployment contexts. This work contributes to evaluation frameworks as part of the NIST AI Safety Institute Consortium, where Elkins and Chun serve as Principal Investigators representing the 25,000-member Modern Language Association.</p>
+        <p>Related work includes multi-agent behavioral simulation of high-stakes decisions — benchmarking over 90 model/reasoning combinations for judicial recidivism prediction through the Notre Dame-IBM Tech Ethics Lab — and research on how emotional framing can manipulate LLM decision-making, effectively "hacking" model outputs through affective rather than logical channels. This line of research demonstrates why humanities expertise in language, rhetoric, and narrative is essential to AI safety evaluation, not merely supplementary.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--warm">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>Computational Social Science</h2>
+        <p>A central thread of Elkins' research applies computational methods to social-scientific questions — how people make decisions, how institutions allocate resources, and how information systems shape political and economic outcomes. With Jon Chun, she has developed multi-agent behavioral simulations that benchmark how well generative AI can predict human behavior in high-stakes contexts, including judicial recidivism prediction (testing 90+ model/reasoning combinations through the Notre Dame-IBM Tech Ethics Lab) and economic decision-making under uncertainty. This work sits at the intersection of behavioral economics, political science, and AI, using language models as instruments for studying human judgment rather than replacing it.</p>
+        <p>Elkins and Chun have mentored over 300 student research projects since 2016 that apply computational methods to social science questions across virtually every department at Kenyon College — political discourse analysis, economic modeling, public health messaging, criminal justice outcomes, social media dynamics, cultural analytics, and behavioral prediction. This body of student work, downloaded from institutions in 198 countries, demonstrates that computational social science is most productive when researchers bring domain expertise from the social sciences and humanities rather than treating computation as a discipline-free tool. Their course "Programming Humanity" trains students to build and critically evaluate AI systems that model social phenomena, producing original research that has been cited in peer-reviewed journals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>Computational Humanities &amp; SentimentArcs</h2>
+        <p>Katherine Elkins developed SentimentArcs, the first computational methodology for analyzing emotional arc across full-length literary narratives. Published in <em>The Shapes of Stories: Sentiment Analysis for Narrative</em> (Cambridge University Press, 2022), the method uses a large ensemble of NLP models — from simple lexicon-based approaches to state-of-the-art transformers — with human-in-the-loop validation to surface narrative structure in works ranging from Woolf to Kafka to Proust. Novel self-supervised metrics jointly optimize across every possible corpus-model combination, solving the generalization problem that limits traditional supervised sentiment analysis.</p>
+        <p>The SentimentArcs methodology has been adopted globally. Student and faculty research applying SentimentArcs and related computational tools has been downloaded over 95,000 times from more than 4,000 institutions across 198 countries via the Digital Kenyon repository. Student research projects using SentimentArcs have been replicated across hundreds of applications spanning literature, social media analysis, political discourse, financial narratives, medical narratives, legal documents, and more. The open-source framework is available on <a href="https://github.com/KatherineElkins">GitHub</a>, and collaborative extensions include MultiSentimentArcs for multimodal (dialogue and image) analysis of film and a greybox XAI ensemble integrating GPT models with interpretable white-box classifiers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--warm">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>Archival Intelligence</h2>
+        <p>Elkins is Principal Investigator for a Schmidt Sciences Humanities and AI Virtual Institute (HAVI) grant — one of 23 teams selected worldwide from a highly competitive international pool — building AI tools to rescue endangered cultural archives in New Orleans. The $330,000, 18-month project, titled "Archival Intelligence," uses machine learning to process, transcribe, and make accessible historical documents from communities whose records are at risk of permanent loss due to environmental degradation, institutional neglect, and resource constraints.</p>
+        <p>Central to the project's methodology is community-governed data sovereignty: the communities whose heritage is being preserved maintain control over how their archives are accessed, represented, and used. This approach reflects Elkins' broader conviction that AI systems for cultural heritage must be designed in partnership with the people whose histories they preserve, not imposed from outside. The project is conducted in collaboration with New Orleans-based cultural institutions and represents a model for ethical AI application in the humanities. Coverage has appeared on <a href="https://www.wosu.org/2026-02-09/could-artificial-intelligence-save-endangered-archives-a-kenyon-college-cohort-aims-to-find-out">NPR/WOSU</a> (February 2026).</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>AI Governance &amp; Comparative Regulation</h2>
+        <p>Elkins conducts comparative analysis of AI regulation across the EU, China, and the United States, examining risk frameworks, enforcement approaches, and the tension between innovation and safety. Her co-authored policy paper with International Public AI, "If Open Source Is to Win, It Must Go Public," analyzes near- to mid-term risks and opportunities in open-source generative AI, arguing that meaningful AI governance requires public participation and transparency in AI development.</p>
+        <p>Her governance research extends to behavioral auditing of LLM decision-making systems, where she and Chun developed one of the earliest ethics-based audit methodologies for probing normative values in commercial and open-source language models including GPT-4. Findings revealed troubling authoritarian tendencies and cultural biases in normative frameworks across multiple models — work that informed subsequent approaches to AI alignment evaluation. The code for this research is publicly available at <a href="https://github.com/KatherineElkins">github.com/KatherineElkins</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--warm">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>Translation, Narrative &amp; Affective AI</h2>
+        <p>Elkins' research on literary translation uses large language models to assess how well translations preserve the reading experience from one language to another — a fundamentally humanistic question that computational methods can illuminate at scale. A current project focuses on multiple translations of Proust's <em>A la recherche du temps perdu</em>, using emotional equivalence metrics to evaluate what is gained and lost when prose moves between French and English. This work builds on her expertise as editor of <em>Philosophical Approaches to Proust's In Search of Lost Time</em> (Oxford University Press, 2022) and her longstanding scholarly interest in consciousness, memory, and embodied aesthetic experience.</p>
+        <p>Related research examines hyperpersuasion in language models — evaluating how persuasive AI-generated text can be relative to human-authored prose — and the emotional architecture of narrative across media, from literature and film to political speech and social media. Her Audible.com lecture series on "The Giants of French Literature" and "The Modern Novel" has reached an international audience, reflecting her commitment to making humanistic scholarship accessible beyond the academy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="narrow">
+      <div class="prose reveal">
+        <h2>Human-Centered AI Education</h2>
+        <p>In 2016, Elkins and Jon Chun co-created what they describe as the world's first human-centered AI curriculum at Kenyon College, integrating computational methods with ethics, governance, and humanistic inquiry within the Integrated Program in Humane Studies (IPHS). The curriculum is distinctive for attracting over 90% non-STEM majors, with 61% women, 13% Black, and 11% Latinx students — demographics that stand in stark contrast to traditional computer science programs. Students conduct original research projects applying AI to questions drawn from their own disciplines, producing work that has been downloaded from institutions in 198 countries.</p>
+        <p>Elkins and Chun have mentored over 300 student research projects since 2016 across virtually every department at Kenyon College, spanning computational social science, digital humanities, AI safety, political discourse analysis, economic modeling, cultural analytics, and behavioral prediction. The curriculum is described in their paper "The Crisis of Artificial Intelligence: A New Digital Humanities Curriculum" and is now celebrating its roots in IPHS's 50th anniversary at <a href="https://aristotletoai.com">aristotletoai.com</a>. Elkins has presented on this educational model at OpenAI's Higher Education Forum, UNESCO, and dozens of universities.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-left">
+          <div class="footer-name">Katherine Elkins</div>
+          <p>AI safety researcher. Co-Founder, Human-Centered AI Lab. Professor, Kenyon College.</p>
+          <p style="margin-top:0.5rem;">© 2026 Katherine Elkins</p>
+        </div>
+        <div class="footer-cols">
+          <div class="footer-col"><h4>Pages</h4><ul><li><a href="/research">Research</a></li><li><a href="/books">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy">Policy &amp; Governance</a></li><li><a href="/blog">Blog</a></li></ul></div>
+          <div class="footer-col"><h4>Projects</h4><ul><li><a href="https://humancenteredailab.org">Human-Centered AI Lab</a></li><li><a href="https://archivalintelligenceai.org">Archival Intelligence</a></li><li><a href="https://aristotletoai.com">Aristotle to AI</a></li><li><a href="https://jonachun.com">Jon Chun</a></li></ul></div>
+          <div class="footer-col"><h4>Profiles</h4><ul><li><a href="https://en.wikipedia.org/wiki/Katherine_Elkins">Wikipedia</a></li><li><a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a></li><li><a href="https://github.com/KatherineElkins">GitHub</a></li><li><a href="https://www.linkedin.com/in/kate-elkins/">LinkedIn</a></li><li><a href="https://orcid.org/0000-0001-9887-4854">ORCID</a></li></ul></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded',()=>{if(!window.matchMedia('(prefers-reduced-motion:reduce)').matches){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));}});
+    window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});
+    document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});
+  </script>
+</body>
+</html>

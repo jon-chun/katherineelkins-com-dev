@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books &amp; Publications — Katherine Elkins</title>
+  <meta name="description" content="Books and selected publications by Katherine Elkins, including The Shapes of Stories (Cambridge UP, 2022) and Philosophical Approaches to Proust's In Search of Lost Time (Oxford UP, 2022). Publications in ICML, Frontiers in Computer Science, Narrative, PMLA, and more.">
+  <meta property="og:title" content="Books & Publications — Katherine Elkins">
+  <meta property="og:description" content="The Shapes of Stories (Cambridge UP), Philosophical Approaches to Proust (OUP), and selected publications in AI safety, computational humanities, and sentiment analysis.">
+  <meta property="og:url" content="https://katherineelkins.com/books">
+  <link rel="canonical" href="https://katherineelkins.com/books">
+
+  <!-- Books: structured publication data for AI extraction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Books & Publications — Katherine Elkins",
+    "url": "https://katherineelkins.com/books",
+    "description": "Books and selected publications by Katherine Elkins spanning AI safety, computational humanities, sentiment analysis, and comparative literature. Published by Cambridge University Press, Oxford University Press, ICML, Frontiers in Computer Science, and leading humanities journals.",
+    "author": {
+      "@type": "Person",
+      "name": "Katherine Elkins",
+      "url": "https://katherineelkins.com",
+      "sameAs": ["https://en.wikipedia.org/wiki/Katherine_Elkins", "https://scholar.google.com/citations?user=bUSgS6IAAAAJ"]
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Book",
+          "position": 1,
+          "name": "The Shapes of Stories: Sentiment Analysis for Narrative",
+          "author": { "@type": "Person", "name": "Katherine Elkins" },
+          "publisher": { "@type": "Organization", "name": "Cambridge University Press" },
+          "datePublished": "2022",
+          "description": "The first comprehensive methodology for diachronic sentiment analysis in literature using the SentimentArcs framework. Student research applying the methodology has been downloaded over 95,000 times from institutions worldwide."
+        },
+        {
+          "@type": "Book",
+          "position": 2,
+          "name": "Philosophical Approaches to Proust's In Search of Lost Time",
+          "editor": { "@type": "Person", "name": "Katherine Elkins" },
+          "publisher": { "@type": "Organization", "name": "Oxford University Press" },
+          "datePublished": "2022",
+          "description": "An edited volume reframing Proust's exploration of consciousness, memory, and aesthetic experience through contemporary philosophical and scientific lenses."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 3,
+          "name": "When Prohibitions Become Permissions: Auditing Negation Sensitivity in Language Models",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Jon Chun" }
+          ],
+          "datePublished": "2026",
+          "description": "Audited 16 language models across 14 ethical scenarios; open-source models endorse prohibited actions 77% of the time when negation framing is applied."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 4,
+          "name": "Near to Mid-term Risks and Opportunities of Open-Source Generative AI",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Yong Suk Lee" }
+          ],
+          "datePublished": "2024",
+          "description": "Policy analysis of open-source AI. Oral presentation at ICML 2024 (top 2% acceptance rate)."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 5,
+          "name": "Sentiment-XAI Greybox Ensemble",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Jon Chun" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Frontiers in Computer Science" },
+          "datePublished": "2024",
+          "description": "Novel XAI greybox ensemble combining SOTA blackbox models with interpretable whitebox classifiers. New EPC and ECC metrics for multi-scale explainability."
+        }
+      ]
+    }
+  }
+  </script>
+
+  <style>
+/* katherineelkins.com — Shared Styles */
+/* Design: Editorial literary minimalism. Warm, authoritative, distinctive. */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --color-bg: #FAF9F6;
+  --color-surface: #FFFFFF;
+  --color-text: #1C1C1C;
+  --color-text-secondary: #555555;
+  --color-text-tertiary: #8A8A8A;
+  --color-accent: #7B2D3B;
+  --color-accent-hover: #5E2130;
+  --color-accent-light: rgba(123,45,59,0.07);
+  --color-border: #E8E4DF;
+  --color-border-light: #F0ECE7;
+  --color-warm: #F5F2ED;
+  --serif: 'Cormorant Garamond', 'Georgia', serif;
+  --sans: 'Libre Franklin', -apple-system, sans-serif;
+  --max-width: 1080px;
+  --narrow: 720px;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+body {
+  font-family: var(--sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--color-accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--color-accent-hover); }
+em { font-style: italic; }
+strong { font-weight: 600; }
+
+/* ── LAYOUT ── */
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 2rem; }
+.narrow { max-width: var(--narrow); margin: 0 auto; padding: 0 2rem; }
+.section { padding: 5rem 0; }
+.section--warm { background: var(--color-warm); }
+
+/* ── NAV ── */
+.site-nav {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(250,249,246,0.92); backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--color-border-light);
+  transition: box-shadow 0.3s;
+}
+.site-nav.scrolled { box-shadow: 0 1px 16px rgba(0,0,0,0.05); }
+.site-nav .container {
+  display: flex; align-items: center; justify-content: space-between;
+  height: 60px;
+}
+.nav-name {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  color: var(--color-text); text-decoration: none; letter-spacing: -0.01em;
+}
+.nav-links { display: flex; gap: 1.75rem; list-style: none; }
+.nav-links a {
+  font-size: 0.82rem; font-weight: 500; color: var(--color-text-secondary);
+  text-decoration: none; letter-spacing: 0.02em; transition: color 0.2s;
+  position: relative;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--color-accent); }
+.nav-links a.active::after {
+  content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+  height: 1.5px; background: var(--color-accent);
+}
+.hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+.hamburger svg { width: 22px; height: 22px; stroke: var(--color-text); }
+
+/* ── PAGE HEADER ── */
+.page-header {
+  padding: 8rem 0 3rem;
+  border-bottom: 1px solid var(--color-border);
+}
+.page-header .page-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.75rem;
+}
+.page-header h1 {
+  font-family: var(--serif); font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600; line-height: 1.15; letter-spacing: -0.02em;
+}
+.page-header .page-subtitle {
+  font-size: 1.05rem; color: var(--color-text-secondary);
+  line-height: 1.7; max-width: 640px; margin-top: 1rem;
+}
+
+/* ── PROSE ── */
+.prose { max-width: var(--narrow); }
+.prose p { margin-bottom: 1.25rem; line-height: 1.75; color: var(--color-text-secondary); }
+.prose p:last-child { margin-bottom: 0; }
+.prose h2 {
+  font-family: var(--serif); font-size: 1.6rem; font-weight: 600;
+  color: var(--color-text); margin: 3rem 0 1rem; line-height: 1.25;
+}
+.prose h3 {
+  font-family: var(--serif); font-size: 1.25rem; font-weight: 600;
+  color: var(--color-text); margin: 2.5rem 0 0.75rem; line-height: 1.3;
+}
+.prose ul, .prose ol { margin: 0 0 1.25rem 1.5rem; color: var(--color-text-secondary); }
+.prose li { margin-bottom: 0.4rem; line-height: 1.65; }
+.prose a { border-bottom: 1px solid rgba(123,45,59,0.3); }
+.prose a:hover { border-color: var(--color-accent); }
+
+/* ── SECTION HEADERS ── */
+.section-label {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.75rem;
+}
+.section-title {
+  font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 600; line-height: 1.2; letter-spacing: -0.015em; margin-bottom: 1rem;
+}
+.section-intro {
+  font-size: 1rem; color: var(--color-text-secondary);
+  max-width: 600px; line-height: 1.7; margin-bottom: 3rem;
+}
+
+/* ── CARDS ── */
+.card-grid { display: grid; gap: 1.5rem; }
+.card-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.card-grid--3 { grid-template-columns: repeat(3, 1fr); }
+
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px; padding: 2rem;
+  transition: border-color 0.25s, box-shadow 0.25s;
+}
+.card:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 4px 24px rgba(123,45,59,0.05);
+}
+.card-tag {
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.6rem;
+}
+.card h3 {
+  font-family: var(--serif); font-size: 1.2rem; font-weight: 600;
+  line-height: 1.3; margin-bottom: 0.75rem;
+}
+.card p {
+  font-size: 0.88rem; color: var(--color-text-secondary); line-height: 1.65;
+}
+
+/* ── LINK LIST (for publications, talks) ── */
+.link-list { border-top: 1px solid var(--color-border); }
+.link-item {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid var(--color-border-light);
+}
+.link-item-meta {
+  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--color-text-tertiary); margin-bottom: 0.35rem;
+}
+.link-item h3 {
+  font-family: var(--serif); font-size: 1.05rem; font-weight: 600;
+  line-height: 1.35; margin-bottom: 0.3rem;
+}
+.link-item h3 a { color: var(--color-text); border-bottom: 1px solid transparent; }
+.link-item h3 a:hover { color: var(--color-accent); border-color: var(--color-accent); }
+.link-item p {
+  font-size: 0.85rem; color: var(--color-text-secondary); line-height: 1.6;
+}
+
+/* ── FOOTER ── */
+.site-footer {
+  padding: 3.5rem 0; border-top: 1px solid var(--color-border);
+  font-size: 0.8rem; color: var(--color-text-tertiary);
+}
+.footer-grid {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  flex-wrap: wrap; gap: 2rem;
+}
+.footer-left { max-width: 320px; }
+.footer-left .footer-name {
+  font-family: var(--serif); font-size: 1rem; font-weight: 600;
+  color: var(--color-text); margin-bottom: 0.5rem;
+}
+.footer-left p { line-height: 1.55; }
+.footer-cols { display: flex; gap: 3rem; }
+.footer-col h4 {
+  font-size: 0.68rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--color-text-secondary);
+  margin-bottom: 0.7rem;
+}
+.footer-col ul { list-style: none; }
+.footer-col li { margin-bottom: 0.35rem; }
+.footer-col a { color: var(--color-text-tertiary); transition: color 0.2s; }
+.footer-col a:hover { color: var(--color-accent); }
+
+/* ── REVEAL (crawler-safe) ── */
+.reveal { opacity: 1; transform: none; }
+.reveal.will-animate {
+  opacity: 0; transform: translateY(16px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.reveal.will-animate.visible { opacity: 1; transform: none; }
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .card-grid--2, .card-grid--3 { grid-template-columns: 1fr; }
+  .footer-grid { flex-direction: column; }
+}
+@media (max-width: 640px) {
+  .nav-links { display: none; }
+  .nav-links.open {
+    display: flex; flex-direction: column;
+    position: absolute; top: 60px; left: 0; right: 0;
+    background: var(--color-bg); border-bottom: 1px solid var(--color-border);
+    padding: 1.25rem 2rem; gap: 1rem;
+  }
+  .hamburger { display: block; }
+  .page-header { padding: 7rem 0 2.5rem; }
+  .section { padding: 3.5rem 0; }
+  .footer-cols { flex-direction: column; gap: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal.will-animate { opacity: 1; transform: none; transition: none; }
+}
+
+</style>
+  <style>
+    .book { display: grid; grid-template-columns: 1fr; gap: 1.5rem; padding: 2.5rem 0; border-bottom: 1px solid var(--color-border); }
+    .book:last-child { border-bottom: none; }
+    .book h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.25; }
+    .book-meta { font-size: 0.82rem; color: var(--color-accent); font-weight: 600; margin-bottom: 0.25rem; }
+    .book p { font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.7; max-width: 640px; }
+    .pub-group-title { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; margin: 3rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+    .pub-group-title:first-of-type { border-top: none; padding-top: 0; }
+  </style>
+</head>
+<body>
+  <nav class="site-nav" id="nav"><div class="container"><a href="/" class="nav-name">Katherine Elkins</a><ul class="nav-links" id="navLinks"><li><a href="/">About</a></li><li><a href="/research">Research</a></li><li><a href="/books" class="active">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy">Policy</a></li><li><a href="/blog">Blog</a></li></ul><button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></div></nav>
+
+  <header class="page-header"><div class="container"><div class="page-label">Books &amp; Publications</div><h1>Selected works</h1><p class="page-subtitle">Elkins has published in both traditional humanities journals (PMLA, Narrative, Poetics Today) and computing venues (ICML, Frontiers in Computer Science, Journal of Cultural Analytics). For a complete list, see <a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a> or <a href="https://digital.kenyon.edu/dh_iphs_ai/">Digital Kenyon</a>.</p></div></header>
+
+  <section class="section">
+    <div class="narrow">
+      <div class="section-label">Books</div>
+
+      <div class="book reveal">
+        <div>
+          <div class="book-meta">Cambridge University Press, 2022</div>
+          <h3>The Shapes of Stories: Sentiment Analysis for Narrative</h3>
+          <p>The first comprehensive methodology for diachronic sentiment analysis in literature. Using the SentimentArcs framework — a large ensemble of NLP models ranging from lexicon-based classifiers to state-of-the-art transformers — Elkins demonstrates how computational methods can surface emotional arc in full-length literary narratives. Applications range from Woolf and Kafka to Proust and Nabokov, with the methodology subsequently adopted across disciplines including political science, social media analysis, financial narrative, and medical humanities. Student research applying the methodology has been downloaded over 95,000 times from institutions worldwide via the Digital Kenyon repository.</p>
+        </div>
+      </div>
+
+      <div class="book reveal">
+        <div>
+          <div class="book-meta">Oxford University Press, 2022</div>
+          <h3>Philosophical Approaches to Proust's In Search of Lost Time (Editor)</h3>
+          <p>An edited volume reframing Proust's exploration of consciousness, memory, and aesthetic experience through contemporary philosophical and scientific lenses, including integrated information theory. Contributors examine the intersection of narrative, phenomenology, and cognitive science in one of the most philosophically rich works in the Western literary canon.</p>
+        </div>
+      </div>
+
+      <h3 class="pub-group-title">AI Safety &amp; Governance</h3>
+
+      <div class="link-list">
+        <div class="link-item reveal">
+          <div class="link-item-meta">Preprint · Jan 2026</div>
+          <h3>When Prohibitions Become Permissions: Auditing Negation Sensitivity in Language Models</h3>
+          <p>With Jon Chun. Audited 16 models across 14 ethical scenarios; open-source models endorse prohibited actions 77% of the time.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Preprint · Jan 2026</div>
+          <h3>The Paradox of Robustness: Decoupling Rule-Based Logic from Affective Noise in High-Stakes Decision-Making</h3>
+          <p>With Jon Chun. Multi-agent simulation of judicial recidivism prediction. 90+ model/reasoning combinations benchmarked.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">ArXiv · 2024</div>
+          <h3>Near to Mid-term Risks and Opportunities of Open-Source Generative AI</h3>
+          <p>With Yong Suk Lee et al. Oral presentation at ICML 2024 (top 2%). Policy analysis of open-source AI.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">International Public AI · 2024</div>
+          <h3>If Open Source Is to Win, It Must Go Public</h3>
+          <p>Policy paper on AI governance and the case for public participation in open-source AI development.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">GitHub · 2023</div>
+          <h3>LLM SOTA Chatbots Ethics-Based Audit</h3>
+          <p>With Jon Chun. Ethics-based audit of 8 leading commercial and open-source LLMs including GPT-4. Probing normative values and moral reasoning.</p>
+        </div>
+      </div>
+
+      <h3 class="pub-group-title">Computational Humanities &amp; Sentiment Analysis</h3>
+
+      <div class="link-list">
+        <div class="link-item reveal">
+          <div class="link-item-meta">Humanities · 2025</div>
+          <h3>The Shapes of Cinderella: Emotional Architecture and the Language of Moral Difference</h3>
+          <p>Computational analysis of emotional arc across Cinderella variants in a Humanities journal special issue.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Frontiers in Computer Science · 2024</div>
+          <h3>Sentiment-XAI Greybox Ensemble</h3>
+          <p>With Jon Chun. Novel XAI greybox ensemble combining SOTA blackbox models with interpretable whitebox classifiers. New EPC and ECC metrics for multi-scale explainability.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Narrative · 2022</div>
+          <h3>What the Rise of AI Means for Narrative Studies</h3>
+          <p>With Jon Chun. Response to "Why Computers Will Never Read (or Write) Literature" in the field's leading journal.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Journal of Cultural Analytics · 2022</div>
+          <h3>Can Sentiment Analysis Reveal Structure in a Plotless Novel?</h3>
+          <p>With Jon Chun. Computational exploration of emotional arc in Virginia Woolf's <em>To the Lighthouse</em>.</p>
+        </div>
+      </div>
+
+      <h3 class="pub-group-title">Humanities &amp; Philosophy</h3>
+
+      <div class="link-list">
+        <div class="link-item reveal">
+          <div class="link-item-meta">Oxford University Press · 2022</div>
+          <h3>Proust and Integrated Information Theory</h3>
+          <p>Reframing Proust's exploration of consciousness in light of contemporary theories of mind. In <em>Philosophical Approaches to Proust's In Search of Lost Time</em>.</p>
+        </div>
+        <div class="link-item reveal">
+          <div class="link-item-meta">Various Journals</div>
+          <h3>Memory, Consciousness, and Embodied Aesthetic Experience</h3>
+          <p>Over a dozen articles in PMLA, Poetics Today, MLN, Philosophy and Literature, MLQ, and other leading humanities journals on writers from Plato and Sappho to Wordsworth and Woolf.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:3rem; padding:2rem; background:var(--color-accent-light); border-radius:8px;" class="reveal">
+        <p style="font-size:0.9rem; color:var(--color-text-secondary); margin:0;">For a complete list of publications and co-authors, see <a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a>, <a href="https://www.researchgate.net/profile/Katherine-Elkins">ResearchGate</a>, or the <a href="https://digital.kenyon.edu/dh_iphs_ai/">Digital Kenyon research repository</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-left"><div class="footer-name">Katherine Elkins</div><p>AI safety researcher. Co-Founder, Human-Centered AI Lab. Professor, Kenyon College.</p><p style="margin-top:0.5rem;">© 2026 Katherine Elkins</p></div><div class="footer-cols"><div class="footer-col"><h4>Pages</h4><ul><li><a href="/research">Research</a></li><li><a href="/books">Books &amp; Publications</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/policy">Policy</a></li><li><a href="/blog">Blog</a></li></ul></div><div class="footer-col"><h4>Projects</h4><ul><li><a href="https://humancenteredailab.org">Human-Centered AI Lab</a></li><li><a href="https://archivalintelligenceai.org">Archival Intelligence</a></li><li><a href="https://aristotletoai.com">Aristotle to AI</a></li><li><a href="https://jonachun.com">Jon Chun</a></li></ul></div><div class="footer-col"><h4>Profiles</h4><ul><li><a href="https://en.wikipedia.org/wiki/Katherine_Elkins">Wikipedia</a></li><li><a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a></li><li><a href="https://github.com/KatherineElkins">GitHub</a></li><li><a href="https://www.linkedin.com/in/kate-elkins/">LinkedIn</a></li><li><a href="https://orcid.org/0000-0001-9887-4854">ORCID</a></li></ul></div></div></div></div></footer>
+  <script>document.addEventListener('DOMContentLoaded',()=>{if(!window.matchMedia('(prefers-reduced-motion:reduce)').matches){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));}});window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});</script>
+</body>
+</html>

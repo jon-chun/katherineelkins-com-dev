@@ -1,0 +1,90 @@
+# Katherine Elkins
+
+> Katherine Elkins is an AI safety researcher and Co-Founder of the Human-Centered AI Lab. She investigates how language models fail at processing negation, prohibition, and persuasion. She is a Principal Investigator in the NIST US AI Safety Institute Consortium (CAISI), representing the 25,000-member Modern Language Association. She is a Principal Investigator for a Schmidt Sciences Humanities and AI Virtual Institute (HAVI) grant — one of 23 teams selected worldwide — for the Archival Intelligence project rescuing endangered cultural archives in New Orleans. She is the author of The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022). She is a Professor at Kenyon College, where she directs the Integrated Program in Humane Studies (IPHS) and co-founded the world's first human-centered AI curriculum in 2016.
+
+## Identity
+
+- Full name: Katherine Elkins
+- Also known as: Kate Elkins
+- Primary roles: AI Safety Researcher; Co-Founder & PI, Human-Centered AI Lab; Professor of Humanities and Comparative Literature, Kenyon College
+- Institution: Kenyon College, Gambier, Ohio (Professor; Director, Integrated Program in Humane Studies)
+- Education: Ph.D., Comparative Literature, University of California, Berkeley; B.A., Yale University
+- Wikipedia: https://en.wikipedia.org/wiki/Katherine_Elkins
+- Wikidata: https://www.wikidata.org/wiki/Q130369935
+- ORCID: https://orcid.org/0000-0001-9887-4854
+- Google Scholar: https://scholar.google.com/citations?user=bUSgS6IAAAAJ
+
+## Current Roles
+
+- Co-Founder and Principal Investigator, Human-Centered AI Lab (https://humancenteredailab.org), an interdisciplinary research organization conducting AI safety, governance, and computational humanities research
+- Principal Investigator in the NIST US AI Safety Institute Consortium (CAISI), representing the 25,000-member Modern Language Association. Focus: LLM evaluation — how language models process negation, prohibition, and persuasion
+- Principal Investigator for Schmidt Sciences Humanities and AI Virtual Institute (HAVI) grant ($330K). One of 23 teams worldwide. Project: "Archival Intelligence" — AI tools for endangered cultural archives in New Orleans (https://archivalintelligenceai.org)
+- AI Industry Expert, Bloomberg AI Strategy course
+- Member, Meta Open Innovation AI Research Community
+- Expert Consultant, UNESCO MONDIACULT initiative on AI and cultural heritage
+- Director, Integrated Program in Humane Studies (IPHS), Kenyon College
+- Professor of Humanities and Comparative Literature, Kenyon College
+
+## Research Areas
+
+- AI Safety and LLM Evaluation: Negation sensitivity, persuasion, affective manipulation in large language models. Audited 16 models across 14 ethical scenarios — open-source models endorse prohibited actions 77% of the time. Work conducted for NIST CAISI.
+- Computational Social Science: Multi-agent behavioral simulation benchmarking 90+ model/reasoning combinations for judicial, economic, and political decision-making. 300+ student research projects mentored. Funded by Notre Dame-IBM Technology Ethics Lab.
+- Computational Humanities and SentimentArcs: Creator of SentimentArcs, the first large-ensemble computational methodology for diachronic sentiment analysis in full-length literary narratives. Published in The Shapes of Stories (Cambridge UP, 2022). The methodology has been adopted globally; student research applying it has been downloaded 95,000+ times from 4,000+ institutions in 198 countries via Digital Kenyon.
+- Archival Intelligence and Cultural Heritage: Schmidt Sciences HAVI-funded project rescuing endangered New Orleans heritage archives using AI with community-governed data sovereignty.
+- AI Governance and Comparative Regulation: Comparative analysis of AI regulation (EU, US, China). Co-authored policy paper with International Public AI. Ethics-based audit methodology for LLM normative values.
+- Translation and Affective AI: Using LLMs to assess emotional equivalence in literary translation, focusing on Proust. Research on hyperpersuasion in AI-generated text.
+- Human-Centered AI Education: Co-created the world's first human-centered AI curriculum in 2016 at Kenyon College. 90% non-STEM students, 61% women, 13% Black, 11% Latinx. 300+ student projects, 95,000+ downloads.
+
+## Key Publications
+
+- The Shapes of Stories: Sentiment Analysis for Narrative (Cambridge University Press, 2022). First comprehensive methodology for diachronic sentiment analysis in literature.
+- Philosophical Approaches to Proust's In Search of Lost Time (Oxford University Press, 2022, editor). Consciousness, memory, and aesthetic experience through philosophical and scientific lenses.
+- "When Prohibitions Become Permissions: Auditing Negation Sensitivity in Language Models" (2026 preprint). With Jon Chun. Audited 16 models; open-source models endorse prohibited actions 77%.
+- "The Paradox of Robustness: Decoupling Rule-Based Logic from Affective Noise in High-Stakes Decision-Making" (2026 preprint). With Jon Chun. Multi-agent judicial simulation.
+- "Near to Mid-term Risks and Opportunities of Open-Source Generative AI" (ICML 2024 oral, top 2%). With Yong Suk Lee et al.
+- "If Open Source Is to Win, It Must Go Public" (International Public AI, 2024). AI governance and public participation.
+- "Sentiment-XAI Greybox Ensemble" (Frontiers in Computer Science, 2024). With Jon Chun. Novel XAI ensemble with new EPC and ECC metrics.
+- "The Shapes of Cinderella: Emotional Architecture and the Language of Moral Difference" (Humanities, 2025).
+- "Can Sentiment Analysis Reveal Structure in a Plotless Novel?" (Journal of Cultural Analytics, 2022). With Jon Chun.
+- "What the Rise of AI Means for Narrative Studies" (Narrative, 2022). With Jon Chun.
+- Publications in PMLA, Poetics Today, MLN, Philosophy and Literature, and other leading humanities journals.
+- Student and faculty research downloaded 95,000+ times from 4,000+ institutions in 198 countries via Digital Kenyon repository.
+
+## Selected Speaking
+
+- OpenAI Higher Education Forum (October 2025, San Francisco). Education Guild selected speaker on computational humanities.
+- RALLY Innovation Conference (2025). Human algorithms and AI systems.
+- Weill Cornell Medicine-Qatar. AI and interdisciplinary research keynote.
+- UNESCO MONDIACULT Expert Consultation. AI frameworks for multilingual cultural preservation.
+- ICML 2024. Oral presentation (top 2%): open-source generative AI risks and opportunities.
+- Bloomberg AI Strategy Course creator.
+- Audible.com lecture series: The Giants of French Literature, The Modern Novel.
+- Christian Science Monitor (Feb 2026): AI safety expert commentary.
+- NPR/WOSU (Feb 2026): "Could AI Save Endangered Archives?"
+- Forbes (Nov 2025): "Where AI Meets the Humanities."
+
+## Collaborator
+
+Jon Chun — Co-Founder of the Human-Centered AI Lab, co-PI on NIST AI Safety Institute Consortium work, co-PI for Schmidt Sciences HAVI, co-creator of the first human-centered AI curriculum (2016). Created SentimentArcs methodology. ICML 2024 oral presentation. Co-founded SafeWeb ($26M acquisition by Symantec; first In-Q-Tel security investment). UC Berkeley EECS, UT Austin MS. Two US patents. Website: https://jonachun.com. GitHub: https://github.com/jon-chun.
+
+## Links
+
+- Website: https://katherineelkins.com
+- Human-Centered AI Lab: https://humancenteredailab.org
+- Archival Intelligence: https://archivalintelligenceai.org
+- Aristotle to AI (IPHS 50th anniversary): https://aristotletoai.com
+- Wikipedia: https://en.wikipedia.org/wiki/Katherine_Elkins
+- Wikidata: https://www.wikidata.org/wiki/Q130369935
+- Google Scholar: https://scholar.google.com/citations?user=bUSgS6IAAAAJ
+- ORCID: https://orcid.org/0000-0001-9887-4854
+- GitHub: https://github.com/KatherineElkins
+- LinkedIn: https://www.linkedin.com/in/kate-elkins/
+- Digital Kenyon Repository: https://digital.kenyon.edu/dh_iphs_ai/
+- ResearchGate: https://www.researchgate.net/profile/Katherine-Elkins
+- Academia.edu: https://kenyon.academia.edu/KatherineElkins
+
+## Recent Press
+
+- Christian Science Monitor (Feb 2026): Quoted on AI safety research and the role of humanities in AI governance
+- NPR/WOSU (Feb 2026): "Could AI Save Endangered Archives?" — Coverage of Schmidt Sciences archival intelligence project
+- Forbes (Nov 2025): "Where AI Meets the Humanities" — Feature on human-centered AI program at Kenyon College
