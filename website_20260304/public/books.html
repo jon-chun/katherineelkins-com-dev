@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Books &amp; Publications — Katherine Elkins</title>
+  <meta name="description" content="Katherine Elkins — books and lecture series. The Shapes of Stories (Cambridge University Press, 2022). Proust's In Search of Lost Time: Philosophical Perspectives (Oxford University Press, 2022). Audible lecture series.">
+  <meta property="og:title" content="Books & Publications — Katherine Elkins">
+  <meta property="og:description" content="The Shapes of Stories (Cambridge UP), Philosophical Approaches to Proust (OUP), and selected publications in AI safety, computational humanities, and sentiment analysis.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://katherineelkins.com/books">
+  <meta property="og:image" content="https://katherineelkins.com/sml-headshot-katherine-elkins.png">
+  <meta property="og:site_name" content="Katherine Elkins">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Books & Publications — Katherine Elkins">
+  <meta name="twitter:description" content="The Shapes of Stories (Cambridge UP), Philosophical Approaches to Proust (OUP), and selected publications in AI safety, computational humanities, and sentiment analysis.">
+  <meta name="twitter:image" content="https://katherineelkins.com/sml-headshot-katherine-elkins.png">
+  <meta name="author" content="Katherine Elkins">
+  <link rel="canonical" href="https://katherineelkins.com/books">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Books: structured publication data for AI extraction -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Books & Publications — Katherine Elkins",
+    "url": "https://katherineelkins.com/books",
+    "description": "Books and selected publications by Katherine Elkins spanning AI safety, computational humanities, sentiment analysis, and comparative literature. Published by Cambridge University Press, Oxford University Press, ICML, Frontiers in Computer Science, and leading humanities journals.",
+    "author": {
+      "@type": "Person",
+      "name": "Katherine Elkins",
+      "url": "https://katherineelkins.com",
+      "sameAs": ["https://en.wikipedia.org/wiki/Katherine_Elkins", "https://scholar.google.com/citations?user=bUSgS6IAAAAJ"]
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "Book",
+          "position": 1,
+          "name": "The Shapes of Stories: Sentiment Analysis for Narrative",
+          "author": { "@type": "Person", "name": "Katherine Elkins" },
+          "publisher": { "@type": "Organization", "name": "Cambridge University Press" },
+          "datePublished": "2022",
+          "description": "The first comprehensive methodology for diachronic sentiment analysis in literature using the SentimentArcs framework. Student research applying the methodology has been downloaded over 95,000 times from institutions worldwide."
+        },
+        {
+          "@type": "Book",
+          "position": 2,
+          "name": "Philosophical Approaches to Proust's In Search of Lost Time",
+          "editor": { "@type": "Person", "name": "Katherine Elkins" },
+          "publisher": { "@type": "Organization", "name": "Oxford University Press" },
+          "datePublished": "2022",
+          "description": "An edited volume reframing Proust's exploration of consciousness, memory, and aesthetic experience through contemporary philosophical and scientific lenses."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 3,
+          "name": "When Prohibitions Become Permissions: Auditing Negation Sensitivity in Language Models",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Jon Chun" }
+          ],
+          "datePublished": "2026",
+          "description": "Audited 16 language models across 14 ethical scenarios; open-source models endorse prohibited actions 77% of the time when negation framing is applied."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 4,
+          "name": "Near to Mid-term Risks and Opportunities of Open-Source Generative AI",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Yong Suk Lee" }
+          ],
+          "datePublished": "2024",
+          "description": "Policy analysis of open-source AI. Oral presentation at ICML 2024 (top 2% acceptance rate)."
+        },
+        {
+          "@type": "ScholarlyArticle",
+          "position": 5,
+          "name": "Sentiment-XAI Greybox Ensemble",
+          "author": [
+            { "@type": "Person", "name": "Katherine Elkins" },
+            { "@type": "Person", "name": "Jon Chun" }
+          ],
+          "isPartOf": { "@type": "Periodical", "name": "Frontiers in Computer Science" },
+          "datePublished": "2024",
+          "description": "Novel XAI greybox ensemble combining SOTA blackbox models with interpretable whitebox classifiers. New EPC and ECC metrics for multi-scale explainability."
+        }
+      ]
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <style>
+    .book { display: grid; grid-template-columns: 160px 1fr; gap: 2rem; padding: 2.5rem 0; border-bottom: 1px solid var(--color-border); align-items: start; }
+    .book:last-child { border-bottom: none; }
+    .book-cover { width: 160px; height: auto; border-radius: 4px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+    .book h3 { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.25; }
+    @media (max-width: 640px) { .book { grid-template-columns: 120px 1fr; gap: 1.25rem; } .book-cover { width: 120px; } }
+    .book-meta { font-size: 0.82rem; color: var(--color-accent); font-weight: 600; margin-bottom: 0.25rem; }
+    .book p { font-size: 0.95rem; color: var(--color-text-secondary); line-height: 1.7; max-width: 640px; }
+    .pub-group-title { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; margin: 3rem 0 1rem; padding-top: 2rem; border-top: 1px solid var(--color-border); }
+    .pub-group-title:first-of-type { border-top: none; padding-top: 0; }
+  </style>
+</head>
+<body>
+  <a href="#content" class="skip-link">Skip to content</a>
+
+  <nav class="site-nav" id="nav"><div class="container"><a href="/" class="nav-name">Katherine Elkins</a><ul class="nav-links" id="navLinks"><li><a href="/">About</a></li><li><a href="/research">Research</a></li><li><a href="/books" class="active" aria-current="page">Books</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/blog">Blog</a></li></ul><button class="hamburger" id="hamburger" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></button></div></nav>
+
+  <main id="content">
+  <header class="page-header"><div class="container"><div class="page-label">Books &amp; Lectures</div><h1>Books &amp; Lectures</h1><p class="page-subtitle">Katherine Elkins's book-length work spans computational narrative, the philosophy of mind, and AI — and the long inquiry into embodied experience that connects them.</p></div></header>
+
+  <section class="section">
+    <div class="narrow">
+
+      <div class="book reveal">
+        <img src="/book-shapes-of-stories.jpg" alt="The Shapes of Stories: Sentiment Analysis for Narrative — Katherine Elkins, Cambridge University Press, 2022" class="book-cover" width="258" height="390">
+        <div>
+          <div class="book-meta">Cambridge University Press, 2022</div>
+          <h3><em>The Shapes of Stories: Sentiment Analysis for Narrative</em></h3>
+          <p>Can computational methods reveal something about literary narrative that close reading alone cannot? <em>The Shapes of Stories</em> introduces SentimentArcs — a methodology for tracking emotional arc across full-length texts — and applies it to canonical works from Austen to Kafka. The open-source framework has been downloaded over 95,000 times from more than 4,000 institutions in 198 countries, and its methods have been adopted across novels, film, political speech, medical narratives, and social media.</p>
+        </div>
+      </div>
+
+      <div class="book reveal">
+        <img src="/book-proust-in-search.jpg" alt="Proust's In Search of Lost Time: Philosophical Perspectives, edited by Katherine Elkins, Oxford University Press, 2022" class="book-cover" width="257" height="390">
+        <div>
+          <div class="book-meta">Oxford University Press, 2022 — Editor</div>
+          <h3><em>Proust's In Search of Lost Time: Philosophical Perspectives</em></h3>
+          <p>An interdisciplinary collection examining Proust's novel through the lens of philosophy of mind, memory, consciousness, time, and embodied experience. Contributors include leading philosophers and literary scholars. Elkins also contributes a chapter, "Proust's Consciousness."</p>
+        </div>
+      </div>
+
+      <div class="book reveal">
+        <div style="width:160px; height:220px; background:var(--color-warm); border-radius:4px; display:flex; align-items:center; justify-content:center; text-align:center; padding:1rem; font-family:var(--serif); font-size:0.9rem; color:var(--color-text-secondary); flex-shrink:0;">Audible<br>Lecture Series</div>
+        <div>
+          <div class="book-meta">Audible.com — Ongoing</div>
+          <h3>Audible Lecture Series</h3>
+          <p>Two lecture series for an international general audience: <em>The Giants of French Literature</em> — from Rabelais to Proust — and <em>The Modern Novel</em>, tracing the evolution of the novel form from its origins to the twentieth century.</p>
+          <p><a href="https://www.audible.com/search?searchNarrator=Katherine+Elkins" target="_blank">Listen on Audible</a></p>
+        </div>
+      </div>
+
+      <p class="reveal" style="margin-top:3rem; font-size:0.9rem; color:var(--color-text-secondary);">For articles, chapters, and working papers, see the <a href="/research">Research page</a>.</p>
+    </div>
+  </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-grid"><div class="footer-left"><div class="footer-name">Katherine Elkins</div><p>AI safety researcher. Co-Founder, Human-Centered AI Lab. Professor, Kenyon College.</p><p style="margin-top:0.5rem;">© 2026 Katherine Elkins</p></div><div class="footer-cols"><div class="footer-col"><h4>Pages</h4><ul><li><a href="/research">Research</a></li><li><a href="/books">Books</a></li><li><a href="/speaking">Speaking</a></li><li><a href="/blog">Blog</a></li></ul></div><div class="footer-col"><h4>Projects</h4><ul><li><a href="https://humancenteredailab.org">Human-Centered AI Lab</a></li><li><a href="https://archivalintelligenceai.org">Archival Intelligence</a></li><li><a href="https://aristotletoai.com">Aristotle to AI</a></li><li><a href="https://jonachun.com">Jon Chun</a></li></ul></div><div class="footer-col"><h4>Profiles</h4><ul><li><a href="https://en.wikipedia.org/wiki/Katherine_Elkins">Wikipedia</a></li><li><a href="https://scholar.google.com/citations?user=bUSgS6IAAAAJ">Google Scholar</a></li><li><a href="https://github.com/KatherineElkins">GitHub</a></li><li><a href="https://www.linkedin.com/in/kate-elkins/">LinkedIn</a></li><li><a href="https://orcid.org/0000-0001-9887-4854">ORCID</a></li></ul></div></div></div></div></footer>
+  <script>document.addEventListener('DOMContentLoaded',()=>{if(!window.matchMedia('(prefers-reduced-motion:reduce)').matches){document.querySelectorAll('.reveal').forEach(el=>el.classList.add('will-animate'));const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -30px 0px'});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));}});window.addEventListener('scroll',()=>{document.getElementById('nav').classList.toggle('scrolled',window.scrollY>10);});document.getElementById('hamburger').addEventListener('click',()=>{document.getElementById('navLinks').classList.toggle('open');});</script>
+</body>
+</html>
